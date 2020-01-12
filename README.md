@@ -10,8 +10,9 @@ Steps to perform:
 - One by one enter the lines from console.js into the console window and run them
 - Move urls.txt from Downloads folder to Download-Google-Images folder
 - Create an "images" folder where your images will be downloaded
-- Run python command as follows:
+- Run follwing two python commands as follows:
 ```bash
+pip install -r requirements.txt
 python download_images.py --urls urls.txt --output images
 ```
 
